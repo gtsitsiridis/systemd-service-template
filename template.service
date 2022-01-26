@@ -4,7 +4,6 @@ After=network.target
 StartLimitIntervalSec=0
 
 [Service]
-type=simple
 Restart=always
 RestartSec=1
 User=gt
